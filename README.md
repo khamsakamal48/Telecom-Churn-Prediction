@@ -72,8 +72,7 @@ We evaluated various machine learning models, including Logistic Regression (Van
 | Ensemble Models with Hyperparameter Tuning | 0.922231 | 0.517660 | 0.640710 | 0.572650 |
 
 ### Top predictors
-![alt text](Plots/Top 20 Features.png?raw=true)
-
+![Plots/Top 20 Features.png?raw=true](https://github.com/khamsakamal48/Telecom-Churn-Prediction/blob/main/Plots/Top%2020%20Features.png)
 
 ## Business Recommendations
 To minimize churn among high-value customers, we recommend the following strategies:
