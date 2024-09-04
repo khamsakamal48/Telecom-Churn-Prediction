@@ -61,6 +61,17 @@ By developing an accurate churn prediction model, we can:
 ## Model Selection and Evaluation
 We evaluated various machine learning models, including Logistic Regression (Vanilla), Logistic Regression with Hyperparameter Tuning, Ensemble Models with Hyperparameter Tuning, and Random Forest with Boosting (Gradient Boosting Classifier). The recommended model is the Random Forest with Boosting, which achieved a high recall of 0.693989 and an F1 Score of 0.58.
 
+| Model | Accuracy | Precision | Recall | F1\_Score |
+| :--- | :--- | :--- | :--- | :--- |
+| Baseline Model | 0.918676 | 0.000000 | 0.000000 | 0.000000 |
+| Logistic Regression Model \(Vanilla\) | 0.373736 | 0.108789 | 0.931694 | 0.194829 |
+| Logistic Regression with Hyperparameter Tuning using GridSearchCV | 0.404511 | 0.110700 | 0.898907 | 0.197124 |
+| Decision Tree \(Vanilla\) | 0.886346 | 0.369973 | 0.565574 | 0.447326 |
+| Decision Tree with Hyperparameter Tuning using GridSearchCV | 0.890679 | 0.393761 | 0.637978 | 0.486966 |
+| Random Forest with Boosting \(Gradient Boosting Classifier\) | 0.919009 | 0.501481 | 0.693989 | 0.582235 |
+| Ensemble Models with Hyperparameter Tuning | 0.922231 | 0.517660 | 0.640710 | 0.572650 |
+
+
 ## Business Recommendations
 To minimize churn among high-value customers, we recommend the following strategies:
 
