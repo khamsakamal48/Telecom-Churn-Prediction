@@ -71,6 +71,9 @@ We evaluated various machine learning models, including Logistic Regression (Van
 | Random Forest with Boosting \(Gradient Boosting Classifier\) | 0.919009 | 0.501481 | 0.693989 | 0.582235 |
 | Ensemble Models with Hyperparameter Tuning | 0.922231 | 0.517660 | 0.640710 | 0.572650 |
 
+### Top predictors
+![alt text](Plots/Top 20 Features.png?raw=true)
+
 
 ## Business Recommendations
 To minimize churn among high-value customers, we recommend the following strategies:
